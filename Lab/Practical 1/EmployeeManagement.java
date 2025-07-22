@@ -28,9 +28,6 @@ class Employee {
 
     Employee(String name, String id, String department, double salary) {
         this(name, id, department);
-        this.name = name;
-        this.department = department;
-        this.id = id;
         this.salary = salary;
         countEmployee++;
     }
