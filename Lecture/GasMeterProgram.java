@@ -69,8 +69,8 @@ public class GasMeterProgram {
                 case 3:
                     System.out.println("How much do you want to refuel: ");
                     litres = sc.nextFloat();
-                    gas98 objDiesel = new gas98();
-                    objDiesel.addGas98(litres);
+                    diesel objDiesel = new diesel();
+                    objDiesel.addDiesel(litres);
                     break;
                 case 0:
                     GasMeter demoGasMeter = new GasMeter();
