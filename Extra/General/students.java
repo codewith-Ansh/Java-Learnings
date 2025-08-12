@@ -1,3 +1,4 @@
+package General;
 public class students {
     // instance variables
     String id, name, branch;

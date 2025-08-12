@@ -1,3 +1,4 @@
+package General;
 public class Operators {
     public static void main(String[] args){
         int sum = 10 + 5;

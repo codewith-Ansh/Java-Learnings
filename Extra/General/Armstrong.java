@@ -1,3 +1,4 @@
+package General;
 import java.util.Scanner;
 
 class Armstrong {

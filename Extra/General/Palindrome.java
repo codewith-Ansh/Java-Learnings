@@ -1,9 +1,10 @@
+package General;
 import java.util.Scanner;
 
-class PracticeProgram {
+class Palindrome {
     int number;
 
-    PracticeProgram(int number) {
+    Palindrome(int number) {
         this.number = number;
     }
 
@@ -30,7 +31,7 @@ class PracticeProgram {
         System.out.print("Enter a number: ");
         int input = scanner.nextInt();
 
-        PracticeProgram pp = new PracticeProgram(input);
+        Palindrome pp = new Palindrome(input);
         pp.checkPalindrome();
 
         scanner.close();

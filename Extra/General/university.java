@@ -1,3 +1,4 @@
+package General;
 public class university {
     String uniName = null;
     String uniAddress = null;

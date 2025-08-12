@@ -1,3 +1,4 @@
+package General;
 public class Example {
     public static void main(String[] args) {
         String str1 = "Ansh Darji";
