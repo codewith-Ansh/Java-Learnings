@@ -1,4 +1,4 @@
-package General;
+
 import java.util.Scanner;
 
 public class StrongNumber {
@@ -25,7 +25,7 @@ public class StrongNumber {
         System.out.println("Enter your number: ");
         int n = sc.nextInt();
         
-        if(Strong(n)){
+        if(Strong(n) == true){
             System.out.println(n + " is a Strong number");
         }
         else{
